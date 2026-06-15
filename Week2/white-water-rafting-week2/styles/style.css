@@ -1,0 +1,181 @@
+nav a{
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    /* display: inline-block; */
+    /* 问老师 */
+}
+
+nav a:visited {
+    color: blue;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+h2{
+    margin: 0;
+}
+
+footer{
+    background-color: #ADDCEE;
+    margin-top: 200px;
+}
+
+footer a{
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+footer a:visited{
+    color: blue;
+    padding: 25px 50px;
+}
+
+footer a:hover{
+    color: #FF899C;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+/* #EEF9FA #FEE20C */
+body {
+    background-color: #EEF9FA; 
+    font-size: 22px;
+    margin: 0;
+    padding:0;
+}
+
+header {
+    background-color:#FEE20C;
+}
+
+main section{
+    text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+/* editting the div with id "content" */
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#hero-msg h1{
+    text-align: center;
+}
+
+#hero-msg h4{
+    text-align: center;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#background {
+    height: 725px;
+    background-color: #EED0C2;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.button-box{
+    text-align: center;
+}
+
+.join{
+    background-color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+/* set the link color to be blue even if it is clicked */
+.join:visited{
+    color: blue;
+}
+
+.join:hover{
+    background-color: #FF5B00;
+}
+
+.book:hover{
+    background-color: #FF5B00;
+}
+
+.book{
+    background-color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:visited{
+    color:blue;
+}
+
+.msg{
+    background-color: #F6F5F6;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg h2{
+    text-decoration: overline;
+}
+
+.msg p{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.home-title{
+    text-decoration: overline;
+    font-family: "Jim Nightshade", cursive;
+    font-weight: 400;
+    font-size: 2em;
+    font-style: normal;
+    margin-top: 10px;
+}
+
+.rivers-card{
+    margin:200px 0;
+}
+
+.camping-card{
+    margin:200px 0;
+}
+
+.rapids-card{
+    margin:200px 0;
+} 
+
+.card-img {
+    border: 10px solid #414656;
+}
+
+.mountains{
+    margin:200px 0;
+}

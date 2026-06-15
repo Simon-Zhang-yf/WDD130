@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+        body {
+            background-color: #F5F5F7;
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+        }
+
+        h2 {
+            text-align: center;
+            margin: 50px;
+        }
+
+        #logo {
+            width: 80px;
+            height: auto;
+            /* border: 2px solid red; */
+        }
+
+        header {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            /* align-items: center; */
+            background-color: white;
+            border-bottom: 2px solid black;
+        }
+
+        #picture {
+            display: flex;
+            justify-content: center;
+        }
+
+        #me {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+         .icon {
+            display: inline-block;
+            background-color: #0171E3;
+            color: white;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+        }
+
+        .icon:visited {
+            color: white;
+        }
+
+        .icon:hover {
+            background-color: white;
+            color: #0171E3;
+        }
+
+        footer {
+            text-align: center;
+            size: 60px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<header>
+    <section>
+        <img id="logo" src="images/LOGO.png" alt="my logo">
+    </section>
+    <section id="picture">
+        <img id="me" src="images/image_of_me.jpg" alt="image_of_me">
+    </section>
+</header>
+
+<body>
+    <nav>
+        <h1>
+            <a class="icon" href="/Week8/portfolio-of-me/index.html" target="_blank">HomePage</a>
+        </h1>
+    </nav>
+    <main>
+        <h2>
+            Hello, I am Zhang Yifu. My hobbies include photography and playing basketball. I am currently majoring in
+            Computer Science at BYUI—this is my first semester—and I welcome you to visit my portfolio!
+        </h2>
+    </main>
+    <footer>
+        <a class="icon" href="about-me.html" target="_blank">ABOUT ME</a>
+        <p>Portfolio &copy; 2026 - Yifu Zhang</p>
+        <form>
+            <label for="message">Want to leave a message to me?</label>
+            <input type="text" name="message">
+            <input type="submit" value="Submit">
+        </form>
+    </footer>
+</body>
+
+</html>

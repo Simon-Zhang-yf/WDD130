@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Roboto:ital,wdth,wght@0,87.5,100..900;1,87.5,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(11, 66, 120, 0.743);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+main, nav, h2 {
+    margin-top: 20px;
+}
+
+nav, p {
+    text-align: center;
+}
+
+.icon{
+    display: inline-block;
+    background-color: #0171E3;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 300px;
+}
+
+.icon:visited{
+    color: white;
+}
+
+.icon:hover{
+    background-color: white;
+    color:#0171E3;
+}
+
+footer{
+    text-align: center;
+    margin: 5px;
+}
+
+p {
+    font-size: 20px;
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Roboto:ital,wdth,wght@0,87.5,100..900;1,87.5,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(11, 66, 120, 0.743);
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+main, nav, h2 {
+    margin-top: 20px;
+}
+
+#logo {
+    width: 80px;
+    height: auto;
+    /* border: 2px solid red; */
+}
+
+.progress {
+    font-family: "Jim Nightshade", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    /* align-items: center; */
+    background-color: white;
+    border-bottom: 2px solid black; 
+}
+
+#picture {
+    display: flex;
+    justify-content: center;
+}
+
+#me {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+nav, p {
+    text-align: center;
+}
+
+.icon{
+    display: inline-block;
+    background-color: #0171E3;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.icon:visited{
+    color: white;
+}
+
+.icon:hover{
+    background-color: white;
+    color:#0171E3;
+}
+
+.table{
+    display: inline-block;
+    background-color: white;
+    color: #0171E3;
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 5px;
+    width: 400px;
+}
+
+.table:visited{
+    color: #0171E3;
+}
+
+.table:hover{
+    background-color: #0171E3;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    margin: 20px;
+}
+
+table {
+    margin: 20px auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
